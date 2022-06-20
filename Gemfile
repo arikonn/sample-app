@@ -58,6 +58,9 @@ group :test do
   gem 'chromedriver-helper'
 end
 
+gem 'minitest', group: :test
+gem 'minitest-reporters', group: :test
+
 group :production do
   gem 'pg', '0.20.0'
 end
